@@ -1,0 +1,278 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+#backGroundColorDiv {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    
+    position:fixed;
+    z-index: -1;
+  
+
+}
+
+.homeHeader {
+    display: flex;
+    height: 15vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.homeHeaderNav {
+    display: flex;
+    width: 50%;
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.homeHeaderNavTxt {
+    text-decoration: none;
+    font-family: cursive;
+    color: white;
+}
+
+.homeHeaderNavTxt:hover {
+    text-decoration: none;
+    font-family: cursive;
+    color: white;
+    border-bottom: 2px solid;
+}
+
+.homeSection1 {
+    display: flex;
+    height: 85vh;
+    width: 100%;
+    backdrop-filter: blur(1px);
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.homeSection1Left {
+    display: flex;
+    height: 85vh;
+    width: 50%;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+.homeSection1LeftNotic {
+    font-size: 70px;
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings: wdth (100);
+}
+
+.homeSection1Left p {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.homeSection1Right {
+    display: flex;
+    height: 85vh;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.homeSection1Right img {
+    display: flex;
+    height: 500px;
+    width: 500px;
+    border-radius: 50px;
+}
+
+
+
+/* gallery file css */
+
+.gallertySection1 {
+    display: flex;
+    height: auto;
+    width: 100%;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.galleryCards {
+    display: flex;
+    height: auto;
+    width: 100%;
+    margin: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.gallerySection1Card {
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+    width: 250px;
+    justify-content: center;
+    align-items: center;
+    flex-flow: wrap;
+    border-radius: 25px;
+}
+
+.gallerySection1CardImg1 {
+    display: flex;
+    height: 200px;
+    width: 200px;
+    border-radius: 5px;
+}
+.gallerySection1CardImg2 {
+    display: flex;
+    height: 200px;
+    width: 200px;
+}
+
+.gallerySection1CardImg3 {
+    display: flex;
+    height: 200px;
+    width: 200px;
+}
+.gallerySection1CardImg4 {
+    display: flex;
+    height: 200px;
+    width: 200px;
+}
+.gallerySection1CardImg5 {
+    display: flex;
+    height: 200px;
+    width: 200px;
+}
+
+.gallerySection1CardTxt1{
+    display: block;
+    font-size: 45px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+
+}.gallerySection1CardTxt2{
+    display: block;
+    font-size: 45px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+
+}
+
+.gallerySection1CardTxt3{
+    display: block;
+    font-size: 45px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+
+}
+.gallerySection1CardTxt4{
+    display: block;
+    font-size: 45px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+
+}
+.gallerySection1CardTxt5{
+    display: block;
+    font-size: 45px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+
+}
+.gallerySampleImagesBox {
+    display: flex;
+    height: auto;
+    width: 100%;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    flex-grow: 5;
+}
+
+.gallerySampleImg {
+    display: flex;
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+    image-rendering: optimizeQuality;
+    border: 2px solid;
+    transition: 1s;
+    border-radius: 10px;
+}
+
+.gallerySampleImg:hover {
+    display: flex;
+    height: 230px;
+    width: 230px;
+    margin: 5px;
+    image-rendering: optimizeQuality;
+    transition: .5s;
+    border-radius: 50px;
+    box-shadow: 1px 1px 50px black;
+
+}
+
+
+
+
+@keyframes gallerySection1CardAnimateIn  {
+    from{
+        font-size:10px;
+            position:none;
+            bottom:0px;
+            font-family:none;
+    }
+    to{
+        font-family:cursive;
+        font-size:50px;
+            position:relative;
+            bottom:25px;
+            
+    }
+}
+
+
+
+
+
+
+
+
+@keyframes TextColorGreen {
+    0%{
+        color: #ADFF2F;
+    }
+    20%{
+        color: #7CFC00;
+    }
+    40%{
+        color: #00FF00;
+    }
+    60%{
+        color: #32CD32;
+    }
+    80%{
+        color:#98FB98 ;
+    }
+    100%{
+        color: #ADFF2F;
+    }
+}
+
+
+
+
